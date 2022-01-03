@@ -66,7 +66,7 @@ export default {
 function postDelete(id) {
             
    //delete data post by ID
-   axios.delete(`https://sistemparkir15.000webhostapp.com/api/post/${id}`)
+   axios.delete('https://sistemparkir15.000webhostapp.com/api/post/${id}')
    .then(() => {
               
        //splice posts 

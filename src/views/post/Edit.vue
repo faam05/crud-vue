@@ -62,7 +62,7 @@ export default {
         onMounted(() => {
 
             //get API from Laravel Backend
-            axios.get(`https://sistemparkir15.000webhostapp.com/api/post/${route.params.id}`)
+            axios.get('https://sistemparkir15.000webhostapp.com/api/post/${route.params.id}')
             .then(response => {
               
               //assign state posts with response data
