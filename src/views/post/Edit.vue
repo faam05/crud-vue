@@ -81,7 +81,7 @@ export default {
             let title   = post.title
             let content = post.content
 
-            axios.put(`http://ta.test/api/post/${route.params.id}`, {
+            axios.put(`https://sistemparkir15.000webhostapp.com/api/post/${route.params.id}`, {
                 title: title,
                 content: content
             }).then(() => {
