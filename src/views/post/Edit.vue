@@ -62,7 +62,7 @@ export default {
         onMounted(() => {
 
             //get API from Laravel Backend
-            axios.get(`http://localhost:8000/api/post/${route.params.id}`)
+            axios.get(`https://sistemparkir15.000webhostapp.com/api/post/${route.params.id}`)
             .then(response => {
               
               //assign state posts with response data
@@ -81,7 +81,7 @@ export default {
             let title   = post.title
             let content = post.content
 
-            axios.put(`http://ta.test/api/post/${route.params.id}`, {
+            axios.put(`https://sistemparkir15.000webhostapp.com/api/post/${route.params.id}`, {
                 title: title,
                 content: content
             }).then(() => {

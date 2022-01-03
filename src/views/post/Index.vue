@@ -50,7 +50,7 @@ export default {
         onMounted(() => {
 
             //get API from Laravel Backend
-            axios.get('http://ta.test/api/post')
+            axios.get('https://sistemparkir15.000webhostapp.com/api/post')
             .then(response => {
               
               //assign state posts with response data
@@ -66,7 +66,7 @@ export default {
 function postDelete(id) {
             
    //delete data post by ID
-   axios.delete(`http://ta.test/api/post/${id}`)
+   axios.delete(`https://sistemparkir15.000webhostapp.com/api/post/${id}`)
    .then(() => {
               
        //splice posts 

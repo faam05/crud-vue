@@ -61,7 +61,7 @@ export default {
             let title   = post.title
             let content = post.content
 
-            axios.post('http://ta.test/api/post', {
+            axios.post('https://sistemparkir15.000webhostapp.com/api/post', {
                 title: title,
                 content: content
             }).then(() => {
