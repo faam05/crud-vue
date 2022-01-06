@@ -73,7 +73,7 @@ export default {
 
             }).catch(error => {
                 //assign state validation with error 
-                validation.value = error.response.data
+                validation.value = error.response.data.data
             })
 
         }
