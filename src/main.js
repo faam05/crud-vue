@@ -1,3 +1,7 @@
+const xhr = new XMLHttpRequest();
+const url = 'https://bar.other/resources/https://sistemparkir15.000webhostapp.com/api/post/';
+
+
 import { createApp } from 'vue'
 import App from './App.vue'
 
